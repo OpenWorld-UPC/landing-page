@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- JAM icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="icon" href="assets/images/favicon-logo.ico">
+    <title>Home | Tukuy</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TMS7WG310"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-4TMS7WG310');
+    </script>
+</head>
+<body>
+
+<!-- Cabecera (Logo y menú de navegación) -->
+<header class="main-header">
+    <div class="content-wrapper">
+        <a href="./">
+            <img src="assets/images/logo.PNG" alt="Logo OpenWorld">
+        </a>
+        <span id="open-menu-button" class="jam jam-menu"></span>
+        <nav id="main-menu" class="main-menu">
+            <span id="close-menu-button" class="jam jam-close"></span>
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+                <li>
+                    <a href="quienes-somos.html">About Us</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Our Plans</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Call to Action</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- Banner principal -->
+    <section class="main-banner section-container main-banner-color">
+        <div class="content-wrapper content">
+            <div class="container">
+                <h2 class="subtitle">QUALITY CONTENT</h2>
+                <h1 class="title">Don't waste your time on anything.</h1>
+                <p class="subtitle">We are a company that seeks to provide or recommend quality dermatologist
+                    professionals, so you do not have to waste time in lines or schedule your consultations with very
+                    long waiting times.</p>
+                <div>
+                    <a class="button white" href="https://play.google.com/store?hl=es">
+                        <img src="./assets/svg/playstore.svg" alt="playstoreLogo">
+                        Install Now
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="rectangle-decoration">
+                    <img class="image rectangle-decoration-image" src="assets/images/image-banner.jpg"
+                         alt="Image Banner OpenWorld">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- information principal -->
+    <section class="section-container information-home-container">
+        <div class="information-home content-wrapper">
+            <h1>What is OpenWorld?</h1>
+            <br>
+            <p class="subtitle">OpenWorld es una plataforma que creará una conexión entre los médicos dermatólogos
+                independientes que deseen ganar dinero en sus tiempos libres o como su medio principal de sustento,
+                mediante el uso de sus habilidades y experiencias, con el fin de satisfacer la necesidad de su
+                cliente.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content-wrapper">
+            <article class="about-item about-item-information-home">
+                <div class="image-container rectangle-rounded">
+                    <img src="assets/images/informatio-home/doctor_contenido_image.jpg" alt="Sobre nosotros"
+                         class=" rectangle-rounded">
+                </div>
+                <div class="content-text-information-home">
+                    <h2>For Doctors</h2>
+                    <p class="subtitle">
+                        Dermatologist doctors will be able to connect with patients and thus earn higher income. We will
+                        achieve this with our professional recommendation algorithm.</p>
+                </div>
+            </article>
+
+            <article class="about-item about-item-information-home">
+                <div class="image-container rectangle-rounded">
+                    <img src="assets/images/informatio-home/pacientes_contenido_image.jpg" alt="Sobre nosotros"
+                         class=" rectangle-rounded">
+                </div>
+                <div class="content-text-information-home">
+                    <h2>For Patients</h2>
+                    <p class="subtitle">
+                        Patients will be able to contact a dermatologist and consult them. We will achieve this through
+                        a user rating system.</p>
+                </div>
+            </article>
+
+            <p></p>
+        </div>
+    </section>
+</main>
+<footer class="main-footer">
+    <p>All rights reserved © 2021 | OpenWorld tech labs agency</p>
+</footer>
+
+<script src="./scripts/menu.js"></script>
+</body>
+</html>
