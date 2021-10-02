@@ -457,11 +457,17 @@ h4 {
   z-index: 1;
 }
 
-.rectangle-decoration-image{
-  border-radius: 9rem 0px;
-  position: relative;
-  right: -12px;
-  bottom: -12px;
+.avatar-image{
+
+  width: 22rem;
+  height: 22rem;
+
+  background-size: cover;
+  object-fit: cover;
+  background-position: top center;
+  filter: drop-shadow(5px 14px 13px rgba(0, 0, 0, 0.15));
+  border-radius: 50%;
+
 }
 
 .rectangle-decoration{
